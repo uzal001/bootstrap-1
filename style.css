@@ -1,0 +1,22 @@
+:root {
+    --gradient-1: linear-gradient(90deg, rgba(252,119,0,1) 0%, rgba(237,183,61,1) 100%);
+    --color-1: rgb(255, 132, 24);
+    --color-2:#ceea15;
+    --bg-gradient: linear-gradient(117deg, rgba(46,55,100,1) 0%, rgba(17,21,29,1) 44%, rgba(17,21,29,1) 82%, rgba(44,50,83,1) 100%);
+}
+ 
+.nav-link {
+    color: white;
+}
+
+
+
+body {
+    background:  url(./Mask\ group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav button:hover {
+    background: var(--color-1) !important;
+}
+
